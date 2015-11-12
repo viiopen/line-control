@@ -1,3 +1,6 @@
+### ViiMed
+Copy editor.js into the custom folder, modify as desired, then add a file-list dependency for the gulp build.
+
 ### LineControl Editor
 LineControl allows you to add a beautiful, responsive and fast online Text Editor to your web application/site. LineControl is designed to work with Twitter Bootstrap and as a Jquery Plugin. To add the plugin to your project, just include the JS and CSS files to your HTML template:
 ```
@@ -36,9 +39,9 @@ LineControl uses HTML5 for some of its functions to deliver a faster user experi
 If you want to add custom Options to the editor just do:
 ```
 editor('createMenuItem', {"text": "TouchGlasses", //Text replaces icon if its not available
-                          "icon":"fa fa-glass", //This is a Font-Awesome Icon 
+                          "icon":"fa fa-glass", //This is a Font-Awesome Icon
                           "tooltip": "Touch Glasses",
-                          "custom": function(button, parameters){ 
+                          "custom": function(button, parameters){
                                         //Your Custom Function.
                                       alert("Cheers!!!");
                                     },
