@@ -1603,6 +1603,7 @@ console.log("VIEW", html);
 
 		setText: function(text){
 			//Function to set the source code
+			if (/^\<\!\-\-init/i.test(text)) text = '';
 			if(!$(this).data("source-mode"))
 				$(this).data("editor").html(text);
 			else
